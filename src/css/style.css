@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    width: 100%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    margin: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+}
+
+.header-financing {
+    background-color: black;
+    padding: 7px 0;
+}
+
+.financing-text {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FBFBFB;
+
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header-icon {
+    text-decoration: none;
+}
+
+/* header */
+
+/* welome */
+
+.welcome {
+    text-align: center;
+    background: url("../images/welcome/Rectangle\ \(2\).png") top left/100% 100% no-repeat;
+    height: 100vh;
+    padding-top: 53px;
+    width: 100%;
+}
+
+.welcome-title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 51px;
+}
+
+.welcome-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin: 14px 0 27px;
+}
+
+.welcome-btn {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px 47px;
+    transition: 0.6s;
+    background: transparent;
+}
+
+.welcome-btn:hover {
+    transition: 0.6s;
+    cursor: pointer;
+    background: #FF4A32;
+    border: none;
+    color: white;
+}
+
+/* welome */
+
+/* one-logos */
+
+.one-logos {
+    background-color: black;
+    padding: 18px 0 18px;
+    width: 100%;
+}
+
+.one-logos-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* one-logos */
+
+/* shop */
+
+.shop {
+    padding: 52px 130px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.shop-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.shop-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    margin: 17px 0 72px;
+    position: relative;
+}
+
+.shop-text::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #CFCFCF;
+    position: absolute;
+    top: 85px;
+    right: 523px;
+}
+
+.row {
+    display: flex;
+}
+
+.shop-item1 {
+    background: url("../images/shop/Rectangle\ \(22\).png") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 580px;
+    text-align: center;
+
+}
+
+.shop-item2 {
+    background: url("../images/shop/Rectangle\ \(23\).png") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 580px;
+    text-align: center;
+}
+
+.shop-content {
+    position: absolute;
+}
+
+.shop-smalltext {
+    color: white;
+}
+
+/* shop */
+
+/* sboards */
+
+.sboards {
+    background: url("../images/sboards/Rectangle\ \(24\).png    ") no-repeat;
+    padding-top: 44px;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+.sboards-content {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.sboards-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+    margin: 11px 0 15px;
+}
+
+.sboards-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.sboards-btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px 66px;
+    background: transparent;
+    transition: 0.6s
+}
+.sboards-btn:hover {
+    transition: 0.6s;
+    cursor: pointer;
+    background: #FF4A32;
+    color: white;
+    border: none;
+}
+
+/* sboards */
+
+/* rev */
+
+.rev {
+    padding: 44px 110px;
+    width: 100%;
+}
+
+.rev-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 67px;
+}
+
+.rev-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 25px 0;
+}
+
+.rev-btn {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px 16px;
+    transition: 0.6s
+}
+
+
+.rev-btn:hover {
+    transition: 0.6s;
+    cursor: pointer;
+    background: #FF4A32;
+    color: white;
+    border: none;
+}
+
+/* rev */
+
+/* skate */
+
+.skate-item1 {
+    background: url("../images/skate/Rectangle\ \(27\).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+
+.skate-item2 {
+    background: url("../images/skate/Rectangle\ \(28\).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+
+.skate-item3 {
+    background: url("../images/skate/Rectangle\ \(29\).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+
+.skate-text {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* skate */
+
+/* yt */
+
+.yt {
+    padding: 55px 190px 64px 150px;
+    width: 100%;
+}
+
+/* yt */
+
+/* gadgets */
+
+.gadgets {
+    padding: 0 10px 28px;
+    width: 100%;
+}
+
+.gadgets-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gadgets-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gadgets-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF4A32;
+}
+
+.gadgets-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.gadgets-title::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #CFCFCF;
+    position: absolute;
+    top: 50px;
+}
+
+.gadgets-dedicated {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF2121;
+}
+
+.gadgets-grey {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.gadgets-img {
+    width: 100%;
+}
+
+/* gadgets */
+
+/* .two-logos */
+
+.two-logos {
+    height: 308px;
+    background: black;
+    padding: 35px 0 52px;
+    width: 100%;
+}
+
+.two-logo {
+    margin-left: 100px;
+}
+
+.two-logos-subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px 0 25px;
+}
+
+.two-logos-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+/* .two-logos */
+
+/* last */
+
+.last {
+    padding: 50px 130px;
+    width: 100%;
+}
+
+.last-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.last-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+/* last */
+
+/* footer */
+
+footer {
+    padding: 19px 130px 27px;
+    width: 100%;
+}
+
+.footer-dedicated {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FF4A32;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
